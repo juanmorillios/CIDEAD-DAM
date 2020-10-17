@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>280</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>_object: EmpresaTransporte
+--
+-idEmpre: int
+-nombre: String
+-CIF: String
+-domicilio: String
+--
++asignaRutaReparto():void;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>180</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_object: Reparto
+--
+-idReparto: Int
+-fecha: Date
+-estado: Bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>290</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_object: Rutas
+--
+-idRuta: Int
+-destino: String
+-fecha: Date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>420</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>_object: Incidencias
+--
+-idIncidencia:int
+-fecha: Date
+-descripcion: String
+--
++registrarIncidencia(fecha:date,
+descripcion:String):void;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>360</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>340</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n
+m2=1
+asigna ruta &gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>210</y>
+      <w>200</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..1
+asigna reparto &gt;</panel_attributes>
+    <additional_attributes>10.0;110.0;180.0;10.0</additional_attributes>
+  </element>
+</diagram>

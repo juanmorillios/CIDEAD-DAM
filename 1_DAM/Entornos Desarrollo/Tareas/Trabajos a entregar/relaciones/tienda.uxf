@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>20</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Tienda</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>70</x>
+      <y>40</y>
+      <w>70</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+tiene &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>140</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Usuario</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>140</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+registro como &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>20</y>
+      <w>370</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>_object: Socio
+--
+-idSocio: String
+-nombre: String
+-primerApellido: String
+-segundoApellido: String
+-email: String
+-direccion: String
+-poblacion: String
+
+--
+
++registrar(nombre:String, primerApellido:String, 
+segundApellido:String email:String, direccion:String,
+poblacion:String): void;
++modificar(nombre:String, primerApellido:String, 
+segundApellido:String email:String, direccion:String,
+poblacion:String):socio;
++visualizar():pedido;
++cancelar(idPedido:Int):boolean;
++adquirirArticulo(articulo: String):void;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
