@@ -1,0 +1,227 @@
+SQL> start "C:\Users\Vicen Curso\Desktop\ScriptsTarea4\registrosTarea4.sql"
+insert into Empleados values (00011, 'Juan Ignacio Martinez', 0, 10, '12341234121234567890','01/02/1960')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (00001, 'Jos+Æ Luis P+Ærez', 2, 12, '12342233121122334455','12/04/1964')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (02341, 'Fernando Romero D+°as', 1, 8, '21341234560987654321','25/09/1955')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (11223, 'Manuel Lopez Mar+°n', 0, 10, '55443322110099887766','13/12/1963')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (67890, 'Alfonso Gutierrez Lopez', 1, 12, '12563478001234567890','05/11/1967')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (00111, 'Encarna Lopez Lopez', 0, 10, '99118822773344665500','15/03/1968')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (02031, 'Ines Montero Zafra', 1, 8, '42341534129234567890','22/02/1972')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (09876, 'Rosa Lorite Lopez', 0, 10, '52341234521214567890','18/08/1975')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (96352, 'Lola Martinez Contreras', 1, 11, '22341224121224567820','09/03/1975')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (76543, 'Francisca Colate Gonzalez', 3, 7, '12343234121334567893','02/03/1969')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (73152, 'Mar+°a Pascual Rojo', 3, 7, '12351234151234567590','09/12/1973')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Empleados values (64738, 'Andr+Æs Morales Mart+°n', 3, 7, '22341154116231563690','20/01/1964')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004044) violada
+
+
+insert into Departamentos values (00001, 'Ventas')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004047) violada
+
+
+insert into Departamentos values (00002, 'Compras')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004047) violada
+
+
+insert into Departamentos values (00003, 'Marketing')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004047) violada
+
+
+insert into Departamentos values (00004, 'Recursos Humanos')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004047) violada
+
+
+insert into Departamentos values (00005, 'Administraci+¶n')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004047) violada
+
+
+insert into Departamentos values (00006, 'Direcci+¶n')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004047) violada
+
+
+insert into Trabajan values (00001, 00001, 'Vendedor')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004050) violada
+
+
+insert into Trabajan values (00001, 00003, 'Dise+¶ador')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004050) violada
+
+
+insert into Trabajan values (02341, 00005, 'Administrativo')
+*
+ERROR en l›nea 1:
+ORA-00001: restricciæn ∑nica (VICEN.SYS_C004050) violada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
