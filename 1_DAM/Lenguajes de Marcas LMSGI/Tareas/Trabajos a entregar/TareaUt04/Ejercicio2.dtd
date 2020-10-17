@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Ejercicio creado por @juanmorisegu
+-->
+
+<!ELEMENT torneo (participante)+>
+<!ATTLIST torneo edition CDATA#RIQUIRED
+                    anteriorGanador CDATA#RIQUIRED>
+<!ELEMENT participante (nombre, edad, pais, cabezaDeSerie?)>
+<!ATTLIST participante idP CDATA#RIQUIRED
+                    pareja IDREF #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT cabezaDeSerie EMPTY>
+
+<!--
+Para este documento todos los atributos son de caracter obligatorio, asi lo pide el ejercicio.
+Se está usando el atributo idP como identificador del objeto.
+Se ha implementado el atributo pareja como identificador de otro participante, es de obligatoriedad estar definido en el archivo.
+Se pide que el elemento cabezaDeSerie sea opcional, para declararlo así hacemos uso de (?).
+Para cada torneo debe tener obligatoriamente participantes.
+Este fichero se ha configurado para guardar datos de un solo participante.
+
+-->

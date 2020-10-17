@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<torneo edicion="1998" anteriorGanador="j01">
+<participante idP="j01" pareja="j02">
+	<nombre>Manuel Pérez</nombre>
+	<edad>23</edad>
+	<pais> España</pais>
+	<cabezaDeSerie/>
+</participante>
+<participante idP="j02" pareja="j01">
+	<nombre>Manuel Gómez</nombre>  
+	<edad>25</edad>
+	<pais>España</pais>
+</participante>
+<participante idP="j03" pareja="j04">
+	<nombre>Ana Puertas</nombre>
+	<edad>22</edad>
+	<pais> E5spaña</pais>
+	<cabezaDeSerie/>
+</participante>
+<participante idP="j04" pareja="j03">
+	<nombre>Paco Fraile</nombre>  
+	<edad>45</edad>
+	<pais>España</pais>
+</participante>
+</torneo>

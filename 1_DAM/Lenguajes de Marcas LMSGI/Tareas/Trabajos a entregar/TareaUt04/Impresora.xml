@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<impresoras>
+<impresora numSerie="i245" tipo="láser" compra="2010">
+<marca>Epson</marca>
+		<modelo>EPL300</modelo>
+<peso>4.52</peso>
+<tamaño>A4</tamaño>
+		<tamaño>A5</tamaño>
+<cartucho>C-123BV</cartucho>
+<enred/>
+</impresora>
+ <impresora numSerie="i246" tipo="matricial">
+	<marca>HP</marca>
+	<modelo>LaserJet 2410</modelo>
+	<peso>3.2</peso>
+	<tamaño>A4</tamaño>
+	<cartucho>C-456P</cartucho>
+ </impresora>
+</impresoras>

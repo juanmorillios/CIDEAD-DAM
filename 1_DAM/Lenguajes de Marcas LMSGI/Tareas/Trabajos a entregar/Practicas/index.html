@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    
+    <body>
+        <h3>Ejemplo de formulario: Matriculación en el ASIR</h3>
+        <form action="matricula.php" method="get">
+            <b>Nombre:</b> <input type="text" name="Nombre"></input>
+            &nbsp;&nbsp;&nbsp;<b>Apellidos:</b> <input type="text" name="Apellidos"></input>
+            &nbsp;&nbsp;&nbsp;<b>Sexo:</b> <input type="radio" name="Sexo"/>M
+            <input type="radio" name="Sexo"/>H
+            
+            <br/><br/><b>Fecha de nacimiento:</b>
+            <select>
+                <option>dia</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select>
+                <option>mes</option>
+                <option>Enero</option>
+                <option>Febrero</option>
+                <option>Marzo</option>
+                <option>Abril</option>
+                <option>Mayo</option>
+                <option>Junio</option>
+                <option>Julio</option>
+                <option>Agosto</option>
+                <option>Septiembre</option>
+                <option>Octubre</option>
+                <option>Noviembre</option>
+                <option>Diciembre</option>
+            </select>   
+            <select>
+                <option>año</option>
+                <option>1992</option>
+                <option>1991</option>
+                <option>1990</option>
+                <option>1989</option>
+                <option>1988</option>
+                <option>1987</option>
+                <option>1986</option>
+            </select>
+            <br/>
+            <p><b>Escoge los módulos en los que te matriculas: </b></p>
+            <table>  
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos"/> Fundamentos de Hardware
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/> Servicios de Red e Internet
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Gestión de Bases de Datos
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Administración de sistemas Operativos
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <input type="checkbox" name="Modulos"/>Implantación de Sistemas Operativos
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Implantación de Aplicaciones Web
+                    </td>
+                </tr>
+                <tr>
+                    <td>            
+                        <input type="checkbox" name="Modulos"/>Planificación y Administración de Redes
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Administración de Sistemas Gestores de Bases de Datos</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Lenguajes de Marcas y Sistemas de Gestión de Información</input>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Seguridad y Alta Disponibilidad
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Formación y Orientación Laboral
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Empresa e Iniciativa Emprendedora
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Proyecto de Administración de Sistemas Informáticos en Red
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Modulos"/>Formación en Centros de Trabajo
+                    </td>
+                </tr>
+            </table>
+            <br/><br/>
+            <b>Estudios previos:</b>
+            <br/>
+            <textarea rows="2" cols="50"></textarea>
+            <br/><br/>
+            <button type="button">Enviar</button>
+            <input type="reset" name="Reset"></input>
+        </form>        
+        <p><b>Pulsa el botón de "enviar" para formalizar la matrícula o el boton de "restablecer" para limpiar el formulario.</b></p>
+    </body>   
+</html>

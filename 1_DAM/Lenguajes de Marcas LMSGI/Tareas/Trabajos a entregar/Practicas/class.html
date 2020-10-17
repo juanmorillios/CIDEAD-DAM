@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <meta charset='UTF-8'>
+        <title>Ejemplo del uso de clases en hojas de estilo</title>
+        <style type="text/css">
+            .clase_azul{color:blue}
+            p.clase_roja{color:#ff0000; font-style:italic; font-weight:bolder; font-family:courier;}
+        </style>
+    </head>
+    <body>
+        <h3 class="clase_azul">Ejemplo del uso de clases en hojas de estilo</h3>
+        <p>Cualquier elemento sobre el que apliquemos la clase clase_azul tendrá el texto azul.</p>   
+        <p class="clase_azul"> Incluso el párrafo.</p>
+        <p class="clase_roja">Sobre el párrafo podemos aplicar la clase clase_roja y el texto será rojo, en negrita cursiva y la familia del texto courier.</p>
+        <h3 class="clase_roja"> Pero este texto no aparecerá formateado ya que regla de la clase clase_roja solo actúa sobre párrafos.</h3>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="impresoras">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="impresora"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="impresora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="marca"/>
+        <xs:element ref="modelo"/>
+        <xs:element ref="peso"/>
+        <xs:element maxOccurs="unbounded" ref="tamaño"/>
+        <xs:element ref="cartucho"/>
+        <xs:restriction base="xs:string">
+        <xs:pattern value=(C)(-)[0-9][0-9][0-9][A-Z][A-Z]?/>
+                </xs:restriction>
+        <xs:element minOccurs="0" ref="enred"/>
+      </xs:sequence>
+      <xs:attribute name="compra" type="xs:integer" use="required"/>
+      <xs:attribute name="numSerie" use="required" type="xs:NCName"/>
+      <xs:attribute name="tipo" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="marca" type="xs:NCName"/>
+  <xs:element name="modelo" type="xs:string"/>
+  <xs:element name="peso" type="xs:decimal"/>
+  <xs:element name="tamaño" type="xs:NCName"/>
+  <xs:element name="cartucho" type="xs:NCName"/>
+  <xs:element name="enred">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>
