@@ -1,0 +1,58 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+97
+'Debe indicar que tipo de cambio quiere (euros-->ptas, escriba : "1" , ptas-->euros, escriba "2"'
+5
+1
+9
+seleccion
+7
+0
+1
+11
+seleccion=1
+4
+1
+30
+'Indique cantidad en pesetas:'
+5
+1
+1
+x
+6
+1
+1
+x
+9
+x/166.386
+4
+1
+35
+'Dicha cantidad es euros es: ' ,  x
+13
+4
+1
+28
+'Indique cantidad en euros:'
+5
+1
+1
+x
+6
+1
+1
+x
+9
+x*166.386
+4
+1
+37
+'Dicha cantidad es pesetas es: ' ,  x
+13
+1

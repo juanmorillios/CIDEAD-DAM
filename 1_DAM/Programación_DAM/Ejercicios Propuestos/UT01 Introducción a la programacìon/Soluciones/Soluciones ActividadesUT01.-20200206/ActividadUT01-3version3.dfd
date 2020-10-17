@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+9
+seleccion
+1
+0
+9
+1
+27
+seleccion!=1 Y seleccion!=2
+4
+0
+5
+0
+11
+4
+1
+31
+'Indique cantidad a convertir:'
+5
+1
+1
+x
+7
+0
+1
+11
+seleccion=1
+4
+1
+43
+'Dicha cantidad es euros es: ' ,  x/166.386
+13
+4
+1
+45
+'Dicha cantidad es pesetas es: ' ,  x*166.386
+13
+1
